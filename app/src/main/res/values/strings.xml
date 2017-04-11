@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Test50</string>
+    <string name="action_bar_edit_text">修改文本</string>
+    <string name="action_bar_refresh_text">action_bar_refresh_text</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_edit">edit</string>
+    <string name="action_profile">profile</string>
+    <string name="mysetting">我的设置</string>
+    <string name="drawer_open">打开侧滑</string>
+    <string name="drawer_close">关闭侧滑</string>
 </resources>
