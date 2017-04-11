@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+  <group android:checkableBehavior="single">
+  <item
+      android:id="@+id/item1"
+        android:title="@string/action_edit"
+        android:checkable="true"
+        android:icon="@drawable/ab_edit"
+      />
+  <item
+      android:id="@+id/item2"
+        android:title="@string/action_edit"
+        android:checked="true"
+        android:icon="@drawable/ab_android"
+      />
+  <item
+        android:title="@string/action_edit"
+        android:icon="@drawable/ic_launcher"
+      />
+  <item
+        android:title="@string/action_edit"
+        android:icon="@drawable/logo"
+      />
+    </group>
+
+
+  <item android:title="Version"
+      >
+    <menu>
+      <item
+            android:title="@string/action_edit"
+            android:icon="@drawable/ab_share"
+          />
+      <item
+            android:title="@string/action_edit"
+            android:icon="@drawable/ab_share"
+          />
+      </menu>
+  </item>
+  <item
+      android:id="@+id/navigation_subheader_one"
+      android:title="子条目"
+      >
+    <menu>
+      <item
+          android:id="@+id/navigation_sub_item_one"
+          android:title="佳佳" />
+      <item
+          android:id="@+id/navigation_sub_item_two"
+          android:title="闹钟" />
+    </menu>
+  </item>
+
+</menu>
